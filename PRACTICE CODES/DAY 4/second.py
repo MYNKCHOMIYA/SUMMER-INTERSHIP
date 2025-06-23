@@ -7,7 +7,7 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
-cexcept ValueError:
+except ValueError:
     print("Error: Invalid input. Please enter a valid number.")
 
 
