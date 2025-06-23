@@ -10,16 +10,24 @@ science = int(input("enter the marks of science : "))
 social = int(input("enter the marks of social : "))
 political = int(input("enter the marks of political  : " ,))
 
-print(f"\nname of student = {name}")
-print(f"class = {Class} th")
+print(f"\nName of student = {name}")
+print(f"Class = {Class} th")
 total_mark = Math + english + science + social + political
 percentage = (total_mark / total_marks) * 100
 print(f"total marks = {Math + english + science + social + political}")
 print(f"percentage =  {(Math + english + science + social + political) / total_marks * 100} %")
 
-if percentage > 60:
-    print("\nGrade A")
-elif percentage > 50:
-    print("\nGrade B")
-else :
-    print("\nGrade C")
+
+print(f"Total Marks Obtained: {total_mark}")
+print(f"Percentage: {percentage}%")
+if percentage >= 60:
+    print("Grade A")
+elif percentage >= 50:
+    print("Grade B")
+elif percentage >= 40:
+    print("Grade C")
+elif percentage >= 33:
+    print("Grade D")
+else:
+    print("FAIL")
+print("Thank you for using the student marks calculator!")
