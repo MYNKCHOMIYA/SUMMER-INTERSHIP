@@ -34,11 +34,3 @@ m4 = input("\nwhich char should be startswith  : ")
 m5 = input("which char should be endswith  : ")
 print(f"\ncheck if string is start with {m4} = {newst.startswith(m4)}")
 print(f"check if string is end with {m5} = {newst.endswith(m5)}")
-
-
-
-
-
-
-
-
